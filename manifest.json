@@ -1,0 +1,40 @@
+{
+  "schema": "public_cpap10_proof_bundle_v1",
+  "first_prime": "100664739940046026209780422559742894159699605500571118110426323232564146473609861537109142019",
+  "difference": 210,
+  "length": 10,
+  "last_prime": "100664739940046026209780422559742894159699605500571118110426323232564146473609861537109143909",
+  "decimal_digits": 93,
+  "discovered_at_utc": "2026-10-19T01:57:08.451638+00:00",
+  "comparison_record_first_prime": "100996972469714247637786655587969840329509324689190041803603417758904341703348882159067229719",
+  "comparison_record_url": "https://www.pzktupel.de/CPAP/mini.php",
+  "comparison_fetched_utc": "2026-10-19T02:00:07.504988+00:00",
+  "comparison_difference": "332232529668221428006233028226946169809719188618923693177094526340195229739020621958087700",
+  "percent_smaller": "0.32895295922642365010071992853267853683219853322783344301096307180460696258899551064455231323321151975021715437",
+  "search_expression": {
+    "primorial_bound": 199,
+    "modulus": "7799922041683461553249199106329813876687996789903550945093032474868511536164700810",
+    "coefficient": "12905864879",
+    "residue": "3345465714554795478482762657945150888890138170762898027552173296015510993787290029",
+    "identity": "first_prime = coefficient * modulus + residue"
+  },
+  "prime_certificates": [
+    "certificates/prime-00.pari.gp",
+    "certificates/prime-01.pari.gp",
+    "certificates/prime-02.pari.gp",
+    "certificates/prime-03.pari.gp",
+    "certificates/prime-04.pari.gp",
+    "certificates/prime-05.pari.gp",
+    "certificates/prime-06.pari.gp",
+    "certificates/prime-07.pari.gp",
+    "certificates/prime-08.pari.gp",
+    "certificates/prime-09.pari.gp"
+  ],
+  "composite_witnesses": "evidence/native-proof.json",
+  "composite_witness_count": 1881,
+  "composite_methods": {
+    "proper_factor": 1832,
+    "Fermat_witness": 49
+  },
+  "claim_scope": "Ten consecutive primes in arithmetic progression with a first term smaller than the record listed at the referenced table and saved comparison time. No claim of a globally smallest CPAP-10."
+}
