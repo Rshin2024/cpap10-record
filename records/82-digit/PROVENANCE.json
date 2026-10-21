@@ -1,0 +1,175 @@
+{
+  "schema": "public_cpap10_mathematical_provenance_v1",
+  "source_sealed_archive_sha256": "e38dd0b8976b9d68fa06b028053649cbd6ceda7508a4ece728d95caf67945527",
+  "native_proof_created_at_utc": "2026-10-21T14:51:48.005008+00:00",
+  "public_table_comparison": {
+    "url": "https://www.pzktupel.de/CPAP/mini.php",
+    "fetched_at_utc": "2026-10-21T14:54:39.361460+00:00",
+    "listed_first_prime": "100996972469714247637786655587969840329509324689190041803603417758904341703348882159067229719",
+    "candidate_first_prime": "8712622385791862675085445195128970899134595793931334268640816440149827258572241659",
+    "source_snapshot_sha256": "bbc55890619e83ad3a95a010ecc2df212f81ccdc0b2c67fcee2a214e52e924fb",
+    "listed_first_prime_divided_by_candidate": "11592029127.1219775747822047016909868738731622583079977826554",
+    "no_global_minimum_claim": true
+  },
+  "certificate_generation": {
+    "software": "PARI/GP 2.19.0",
+    "operation": "primecert; primecertisvalid; primecertexport formats 0 and 1",
+    "documentation": "https://pari.math.u-bordeaux.fr/dochtml/html-stable/Arithmetic_functions.html#primecert",
+    "formats": {
+      "native": ".pari.gp",
+      "Primo": ".primo.txt",
+      "readable": ".readable.txt"
+    }
+  },
+  "native_witness_generation": {
+    "python_flint_version": "0.9.0",
+    "FLINT_version": "3.6.0",
+    "target_primality_operation": "FLINT fmpz_is_prime",
+    "documentation": "https://flintlib.org/doc/fmpz.html#c.fmpz_is_prime",
+    "composite_witness_methods": {
+      "proper_factor": 1822,
+      "Fermat_witness": 59
+    }
+  },
+  "verification": {
+    "command": "python3 -E -S -B check_cpap10_bundle.py",
+    "runtime": "Python 3 standard library plus bundled check_ecpp.py; no external package or network required",
+    "prime_proof": "Integer-arithmetic replay of all ten ECPP certificate chains",
+    "consecutiveness_proof": "Exact proper-factor or Fermat arithmetic for all 1881 non-target integers between the first and last prime",
+    "acceptance": "Mathematical checks; saved success flags and integrity hashes do not establish primality or compositeness"
+  },
+  "proof_files": [
+    {
+      "path": "certificates/prime-00.pari.gp",
+      "sha256": "6c79dd5fb8a28a92f968f93245758f4ad9f9d94d52f725952460c7bbd8a40a09"
+    },
+    {
+      "path": "certificates/prime-00.primo.txt",
+      "sha256": "42f3e59c5f2e45f3a6f6f2a305c483755ffe0b78e8e775522bc015d0de7b732a"
+    },
+    {
+      "path": "certificates/prime-00.readable.txt",
+      "sha256": "32c4999b2c0b6769c49493ac8bcd59933c7d266d3c3a7ae66ad88dfb4212a875"
+    },
+    {
+      "path": "certificates/prime-01.pari.gp",
+      "sha256": "b890c2ef0cdb53058853c9a72d1be2c9f7982b843f8d982400436f189856ed15"
+    },
+    {
+      "path": "certificates/prime-01.primo.txt",
+      "sha256": "ab299976225a93584d2bacf98392617cfafd9d75f34e3a2cccf619cd69c6e1dc"
+    },
+    {
+      "path": "certificates/prime-01.readable.txt",
+      "sha256": "a750b5fbd2159d30cbf8ec4e45447f2c175f8d8256b83ec31f7949209b77154c"
+    },
+    {
+      "path": "certificates/prime-02.pari.gp",
+      "sha256": "161ddcf3b56741319e3ccfaa8ddf442825ecabf9c5f900c5ae94d4f82165b750"
+    },
+    {
+      "path": "certificates/prime-02.primo.txt",
+      "sha256": "10ed88d8715bf4915f439f6f17bd66e0021a1330ca4eefe4c1980919ba703743"
+    },
+    {
+      "path": "certificates/prime-02.readable.txt",
+      "sha256": "3170f0fc8ea48fc91735199a58a3b4e13cf81a7f572b6667aa4697db06935984"
+    },
+    {
+      "path": "certificates/prime-03.pari.gp",
+      "sha256": "910a4331c7c34d83e8f52a3c5d86f8437b1cd18304a68a462913cc69033990ed"
+    },
+    {
+      "path": "certificates/prime-03.primo.txt",
+      "sha256": "deb95fe8cc0904a06d0c4d0fa7dcacd9e5c14b75c2e5c9b33de9117cf1390d1a"
+    },
+    {
+      "path": "certificates/prime-03.readable.txt",
+      "sha256": "59e0259916dcc641c1382845773ad7fcb5ffe3331c61feb93946e509fff97796"
+    },
+    {
+      "path": "certificates/prime-04.pari.gp",
+      "sha256": "40225ef07bafa06662952ae960d71f59b1248269b466abd3b88b1c5e670d5eab"
+    },
+    {
+      "path": "certificates/prime-04.primo.txt",
+      "sha256": "ebca92e68686bffda034936d8988f9a2e0f91904da9759be61ee07b413124851"
+    },
+    {
+      "path": "certificates/prime-04.readable.txt",
+      "sha256": "f4274423ee92db7ddfdb121bc84f13824f802a6f62a150f675d94bd2c177ec68"
+    },
+    {
+      "path": "certificates/prime-05.pari.gp",
+      "sha256": "61e6936a4a44141a55365c49a888c62f3064ac1fb42c3d54fa43b766a6644b82"
+    },
+    {
+      "path": "certificates/prime-05.primo.txt",
+      "sha256": "3f86eb771c90b58543eb73329c53f23334e7fc9ecb3619f87a597254bde7c377"
+    },
+    {
+      "path": "certificates/prime-05.readable.txt",
+      "sha256": "e317b2aee67b49babed85f8b020ee2762aabb3e37acda470fb1dc2c0ca1b20b3"
+    },
+    {
+      "path": "certificates/prime-06.pari.gp",
+      "sha256": "2bbd207326d75bdf42c9b48118ddca4ab056dd3a52b4eb0358bbf8d33767a47f"
+    },
+    {
+      "path": "certificates/prime-06.primo.txt",
+      "sha256": "f31798d2211f980a4f0d05b403fe70f320c3f0776b35093ed1a30f8919933117"
+    },
+    {
+      "path": "certificates/prime-06.readable.txt",
+      "sha256": "8ec3d70c10c12c3c0fd4b4569758e769a63108332ea6f41c878e4cdd43143229"
+    },
+    {
+      "path": "certificates/prime-07.pari.gp",
+      "sha256": "f7421ab879ec4d28df621149e1163b66a8d316a5bf1e35920aa7566974e57f92"
+    },
+    {
+      "path": "certificates/prime-07.primo.txt",
+      "sha256": "dbed9ebecd47a3e91a31b01ae877828f1ffcfe2839403f7f68b79f6ea2e5f478"
+    },
+    {
+      "path": "certificates/prime-07.readable.txt",
+      "sha256": "bdb55c6da11ae5a454174a8314408125bd6a13678b0dbae52dc0cf44f8402048"
+    },
+    {
+      "path": "certificates/prime-08.pari.gp",
+      "sha256": "a748aec0ff2d72504b0f4db66f24b6076c58d299d6fcddb596f20384e0469c9f"
+    },
+    {
+      "path": "certificates/prime-08.primo.txt",
+      "sha256": "c709df989017ac1f3a7f8f9a78e29a333c41e757d5352138255cb3c16bad41b2"
+    },
+    {
+      "path": "certificates/prime-08.readable.txt",
+      "sha256": "08568ad89bd297305d73fdfc853f59fc0415ea28df8b281b5325bde8480a331c"
+    },
+    {
+      "path": "certificates/prime-09.pari.gp",
+      "sha256": "a40de77cfeedeb66360f90c30bc736ba35c7aba78f75734cb83096a38656e1f7"
+    },
+    {
+      "path": "certificates/prime-09.primo.txt",
+      "sha256": "f766daa6c0dc6bcc6ab9eb3c2c964730faae8f157e552e0381e2022039c8c453"
+    },
+    {
+      "path": "certificates/prime-09.readable.txt",
+      "sha256": "4b6088c8d78d17fd80ab4b990bc5e85bc54295c5251da5499b812c70dd4006bb"
+    },
+    {
+      "path": "check_cpap10_bundle.py",
+      "sha256": "9e05f096f0d84f9bc020b2abcdaaf5e3c6ebd25d101aaff86ee7c57582aee8be"
+    },
+    {
+      "path": "check_ecpp.py",
+      "sha256": "726c7cbdb616bb13277c7deeefc7401cc96f86de12f4109ce806fb5f3f0132fd"
+    },
+    {
+      "path": "evidence/native-proof.json",
+      "sha256": "a9766c2be796da337e27d23e25e7b3f1d804132bb5d5094f51e549812fc1131d"
+    }
+  ]
+}

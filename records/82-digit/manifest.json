@@ -1,0 +1,44 @@
+{
+  "schema": "public_cpap10_proof_bundle_v1",
+  "first_prime": "8712622385791862675085445195128970899134595793931334268640816440149827258572241659",
+  "last_prime": "8712622385791862675085445195128970899134595793931334268640816440149827258572243549",
+  "decimal_digits": 82,
+  "difference": 210,
+  "length": 10,
+  "span": 1890,
+  "native_proof_created_at_utc": "2026-10-21T14:51:48.005008+00:00",
+  "search_first_prime_exclusive_ceiling": "100000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "comparison_record_first_prime": "100996972469714247637786655587969840329509324689190041803603417758904341703348882159067229719",
+  "comparison_record_url": "https://www.pzktupel.de/CPAP/mini.php",
+  "comparison_fetched_utc": "2026-10-21T14:54:39.361460+00:00",
+  "comparison_record_decimal_digits": 93,
+  "comparison_difference": "100996972461001625251994792912884395134380353790055446009672083490263525263199054900494988060",
+  "listed_record_divided_by_first_prime": "11592029127.1219775747822047016909868738731622583079977826554",
+  "search_expression": {
+    "primorial_bound": 173,
+    "modulus": "166589903787325219380851695350896256250980509594874862046961683989710",
+    "coefficient": "52299822424501",
+    "residue": "47097732608367487943628591116141852609567776190912870462611636356949",
+    "identity": "first_prime = coefficient * 173# + residue",
+    "primorial_definition": "173# is the product of all primes at most 173"
+  },
+  "prime_certificates": [
+    "certificates/prime-00.pari.gp",
+    "certificates/prime-01.pari.gp",
+    "certificates/prime-02.pari.gp",
+    "certificates/prime-03.pari.gp",
+    "certificates/prime-04.pari.gp",
+    "certificates/prime-05.pari.gp",
+    "certificates/prime-06.pari.gp",
+    "certificates/prime-07.pari.gp",
+    "certificates/prime-08.pari.gp",
+    "certificates/prime-09.pari.gp"
+  ],
+  "composite_witnesses": "evidence/native-proof.json",
+  "composite_witness_count": 1881,
+  "composite_methods": {
+    "proper_factor": 1822,
+    "Fermat_witness": 59
+  },
+  "claim_scope": "Ten consecutive primes in arithmetic progression with first term below the first-ranked CPAP-10 in the referenced table at the dated comparison. No global minimum is claimed."
+}
